@@ -15,7 +15,7 @@ async function fetchWebflowItem(itemId: string): Promise<any> {
         method: 'GET',
         headers: {
             accept: 'application/json',
-            authorization: 'Bearer 2eca2b8e05a02471a866d163b36f4a5b3d7168afc70b76870c530cc34e5971b1'
+            authorization: 'Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         }
     };
 
