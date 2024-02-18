@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", function() {
       async function fetchFavoritedItems(memberData) {
         const favoriteItemIds = memberData.favorite;
         console.log(favoriteItemIds);
-        fetch('https://myapp.webflowxmemberstack.workers.dev/favourted-items', {
+        // This Fetch Reuqest URL is sample which means you need to add your own URL to make it work
+        fetch('https://testapp.webflowxmemberstack.workers.dev/favourted-items', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -65,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const favoriteItemIds = memberData;
         const tempArray = [favoriteItemIds]
         console.log(favoriteItemIds)
-        fetch('https://myapp.webflowxmemberstack.workers.dev/favourted-items', {
+        fetch('https://testapp.webflowxmemberstack.workers.dev/favourted-items', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
