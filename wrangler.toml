@@ -2,8 +2,8 @@ name = "stagin-api"
 compatibility_date = "2023-01-01"
 
 [vars]
-STAGING_TOKEN = "e71a7494cd62a37e789f926cb58b7a3ca8c5aacab577732f31e4d3de808a3b33"
-PRODUCTION_TOKEN = "0a0a25f6adf6b32c6f99309c88ceb9207215100e3d69885600da57629949da79" 
+STAGING_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+PRODUCTION_TOKEN = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx" 
 
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
